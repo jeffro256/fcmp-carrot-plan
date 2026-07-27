@@ -13,4 +13,4 @@ Monero. For berevity, It does not include tasks completed before July 22nd, 2026
 > This plan is a non-binding working draft. I make no guarantee of its accuracy, and am not liable for issues caused by
 > delays and/or discrepancies in the timeline of FCMP++/Carrot, or if the update fails to materialize at all.
 
-According to this planner, FCMP++/Carrot will activate in week 9 of 2027.
+According to this planner, FCMP++/Carrot will activate in week 5 of 2027.
