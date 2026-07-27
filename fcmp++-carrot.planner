@@ -65,8 +65,8 @@
       </predecessors>
     </task>
     <task id="11" name="mx25519 unclamped + other PRs" note="" work="57600" duration="57600" start="20260722T000000Z" end="20260723T170000Z" work-start="20260722T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="12" name="Generator T,U,V fix merges" note="" work="28800" duration="28800" start="20260723T000000Z" end="20260723T170000Z" work-start="20260723T080000Z" percent-complete="29" priority="0" type="normal" scheduling="fixed-work">
-      <constraint type="start-no-earlier-than" time="20260723T000000Z"/>
+    <task id="12" name="Generator T,U,V fix merges" note="" work="22500" duration="22500" start="20260727T000000Z" end="20260727T151500Z" work-start="20260727T080000Z" percent-complete="14" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="start-no-earlier-than" time="20260727T000000Z"/>
     </task>
     <task id="13" name="mx25519 merge" note="" work="86400" duration="86400" start="20260723T170000Z" end="20260728T170000Z" work-start="20260724T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
@@ -79,7 +79,9 @@
         <predecessor id="1" predecessor-id="13" type="FS"/>
       </predecessors>
     </task>
-    <task id="15" name="UkoeHB's carrot_impl review" note="https://github.com/seraphis-migration/monero/pull/427" work="57600" duration="57600" start="20260722T000000Z" end="20260723T170000Z" work-start="20260722T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="15" name="UkoeHB's carrot_impl review" note="https://github.com/seraphis-migration/monero/pull/427" work="57600" duration="57600" start="20260727T000000Z" end="20260728T170000Z" work-start="20260727T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="start-no-earlier-than" time="20260727T000000Z"/>
+    </task>
     <task id="16" name="carrot_impl merge" note="" work="144000" duration="144000" start="20260804T170000Z" end="20260811T170000Z" work-start="20260805T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="15" type="FS"/>
