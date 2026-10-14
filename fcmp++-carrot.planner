@@ -91,13 +91,13 @@
     <task id="15" name="Generator T,U,V fix merges" note="" work="22500" duration="22500" start="20260812T000000Z" end="20260812T151500Z" work-start="20260812T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="start-no-earlier-than" time="20260812T000000Z"/>
     </task>
-    <task id="16" name="mx25519 merge" note="" work="86400" duration="86400" start="20261007T000000Z" end="20261009T170000Z" work-start="20261007T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-      <constraint type="start-no-earlier-than" time="20261007T000000Z"/>
+    <task id="16" name="mx25519 merge" note="" work="86400" duration="86400" start="20261014T000000Z" end="20261016T170000Z" work-start="20261014T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="start-no-earlier-than" time="20261014T000000Z"/>
       <predecessors>
         <predecessor id="1" predecessor-id="14" type="FS"/>
       </predecessors>
     </task>
-    <task id="17" name="carrot_core merge" note="https://github.com/monero-project/monero/pull/9559" work="144000" duration="144000" start="20261009T170000Z" end="20261016T170000Z" work-start="20261012T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="17" name="carrot_core merge" note="https://github.com/monero-project/monero/pull/9559" work="144000" duration="144000" start="20261016T170000Z" end="20261023T170000Z" work-start="20261019T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="15" type="FS"/>
         <predecessor id="1" predecessor-id="16" type="FS"/>
@@ -109,7 +109,7 @@
     <task id="19" name="tests_common library" note="https://github.com/monero-project/monero/pull/10934" work="28800" duration="28800" start="20261007T000000Z" end="20261007T170000Z" work-start="20261007T080000Z" percent-complete="34" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="start-no-earlier-than" time="20261007T000000Z"/>
     </task>
-    <task id="20" name="carrot_impl merge" note="https://github.com/monero-project/monero/pull/9697" work="144000" duration="144000" start="20261016T170000Z" end="20261023T170000Z" work-start="20261019T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="20" name="carrot_impl merge" note="https://github.com/monero-project/monero/pull/9697" work="144000" duration="144000" start="20261023T170000Z" end="20261030T170000Z" work-start="20261026T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="19" type="FS"/>
         <predecessor id="1" predecessor-id="18" type="FS"/>
@@ -119,7 +119,7 @@
     <task id="21" name="wallet: upstream misc stuff before FCMP++" note="https://github.com/monero-project/monero/pull/10995" work="28800" duration="28800" start="20260812T000000Z" end="20260812T170000Z" work-start="20260812T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="start-no-earlier-than" time="20260812T000000Z"/>
     </task>
-    <task id="22" name="carrot-fcmp integration merges" note="" work="144000" duration="144000" start="20261023T170000Z" end="20261030T170000Z" work-start="20261026T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="22" name="carrot-fcmp integration merges" note="" work="144000" duration="144000" start="20261030T170000Z" end="20261106T170000Z" work-start="20261102T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="21" type="FS"/>
         <predecessor id="1" predecessor-id="20" type="FS"/>
@@ -139,7 +139,7 @@
         <predecessor id="1" predecessor-id="26" type="FS"/>
       </predecessors>
     </task>
-    <task id="28" name="HF activation merge" note="" work="28800" duration="28800" start="20261030T170000Z" end="20261102T170000Z" work-start="20261102T080000Z" percent-complete="22" priority="0" type="normal" scheduling="fixed-work">
+    <task id="28" name="HF activation merge" note="" work="28800" duration="28800" start="20261106T170000Z" end="20261109T170000Z" work-start="20261109T080000Z" percent-complete="22" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="27" type="FS"/>
         <predecessor id="1" predecessor-id="25" type="FS"/>
@@ -148,18 +148,18 @@
         <predecessor id="1" predecessor-id="13" type="FS"/>
       </predecessors>
     </task>
-    <task id="29" name="Pre-release code freeze" note="" work="576000" duration="576000" start="20261102T170000Z" end="20261130T170000Z" work-start="20261103T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="29" name="Pre-release code freeze" note="" work="576000" duration="576000" start="20261109T170000Z" end="20261207T170000Z" work-start="20261110T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="28" type="FS"/>
       </predecessors>
     </task>
-    <task id="30" name="First HF-enabled binary release" note="" work="144000" duration="144000" start="20261130T170000Z" end="20261207T170000Z" work-start="20261201T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="30" name="First HF-enabled binary release" note="" work="144000" duration="144000" start="20261207T170000Z" end="20261214T170000Z" work-start="20261208T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="29" type="FS"/>
         <predecessor id="1" predecessor-id="28" type="FS"/>
       </predecessors>
     </task>
-    <task id="31" name="HF mandatory waiting period" note="" work="3456000" duration="3456000" start="20261102T170000Z" end="20270419T170000Z" work-start="20261103T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="31" name="HF mandatory waiting period" note="" work="3456000" duration="3456000" start="20261109T170000Z" end="20270426T170000Z" work-start="20261110T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="28" type="FS"/>
       </predecessors>
@@ -236,7 +236,7 @@
         <predecessor id="1" predecessor-id="45" type="FS"/>
       </predecessors>
     </task>
-    <task id="48" name="FCMP++ activation" note="" work="28800" duration="28800" start="20270419T170000Z" end="20270420T170000Z" work-start="20270420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="48" name="FCMP++ activation" note="" work="28800" duration="28800" start="20270426T170000Z" end="20270427T170000Z" work-start="20270427T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
         <predecessor id="1" predecessor-id="47" type="FS"/>
         <predecessor id="1" predecessor-id="31" type="FS"/>
