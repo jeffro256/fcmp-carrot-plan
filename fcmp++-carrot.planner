@@ -91,7 +91,7 @@
     <task id="15" name="Generator T,U,V fix merges" note="" work="22500" duration="22500" start="20260812T000000Z" end="20260812T151500Z" work-start="20260812T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="start-no-earlier-than" time="20260812T000000Z"/>
     </task>
-    <task id="16" name="mx25519 merge" note="" work="86400" duration="86400" start="20261014T000000Z" end="20261016T170000Z" work-start="20261014T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="16" name="mx25519 merge" note="" work="86400" duration="86400" start="20261014T000000Z" end="20261016T170000Z" work-start="20261014T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="start-no-earlier-than" time="20261014T000000Z"/>
       <predecessors>
         <predecessor id="1" predecessor-id="14" type="FS"/>
@@ -106,8 +106,8 @@
     <task id="18" name="UkoeHB's carrot_impl review" note="https://github.com/seraphis-migration/monero/pull/427" work="57600" duration="57600" start="20260727T000000Z" end="20260728T170000Z" work-start="20260727T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="start-no-earlier-than" time="20260727T000000Z"/>
     </task>
-    <task id="19" name="tests_common library" note="https://github.com/monero-project/monero/pull/10934" work="28800" duration="28800" start="20261007T000000Z" end="20261007T170000Z" work-start="20261007T080000Z" percent-complete="34" priority="0" type="normal" scheduling="fixed-work">
-      <constraint type="start-no-earlier-than" time="20261007T000000Z"/>
+    <task id="19" name="tests_common library" note="https://github.com/monero-project/monero/pull/10934" work="28800" duration="28800" start="20261019T000000Z" end="20261019T170000Z" work-start="20261019T080000Z" percent-complete="28" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="start-no-earlier-than" time="20261019T000000Z"/>
     </task>
     <task id="20" name="carrot_impl merge" note="https://github.com/monero-project/monero/pull/9697" work="144000" duration="144000" start="20261023T170000Z" end="20261030T170000Z" work-start="20261026T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <predecessors>
@@ -125,7 +125,9 @@
         <predecessor id="1" predecessor-id="20" type="FS"/>
       </predecessors>
     </task>
-    <task id="23" name="RandomX v2 + intermediate merge" note="" work="144000" duration="144000" start="20260722T000000Z" end="20260728T170000Z" work-start="20260722T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="23" name="RandomX v2 + intermediate merge" note="" work="144000" duration="144000" start="20261019T000000Z" end="20261023T170000Z" work-start="20261019T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="start-no-earlier-than" time="20261019T000000Z"/>
+    </task>
     <task id="24" name="TX relay v2 double-spend debug" note="" work="144000" duration="144000" start="20260722T000000Z" end="20260728T170000Z" work-start="20260722T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
     <task id="25" name="TX relay v2 merge" note="" work="288000" duration="288000" start="20261007T000000Z" end="20261020T170000Z" work-start="20261007T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="start-no-earlier-than" time="20261007T000000Z"/>
